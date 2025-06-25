@@ -16,6 +16,7 @@ type Logger struct {
 
 // New creates a new Logger instance
 func New(debug bool) *Logger {
+	fmt.Println("Initializing logger...")
 	return &Logger{
 		debug:  debug,
 		prefix: "[PLAYGROUND] ",
