@@ -43,4 +43,5 @@ func main() {
 	if err != nil {
 		logger.Error("Failed to create Prometheus registry: " + err.Error())
 	}
+	logger.Info("Prometheus registry created successfully")
 }
