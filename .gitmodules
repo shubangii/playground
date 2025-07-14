@@ -1,0 +1,3 @@
+[submodule "vendor"]
+	path = vendor
+	url = https://bits.linode.com/PIE/vasguard-dependencies.git
